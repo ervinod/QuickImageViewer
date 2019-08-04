@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(MainActivity.this, ImageViewerActivity.class);
         intent.putExtra(ImageViewerActivity.IMAGE_LIST, imageList);
         intent.putExtra(ImageViewerActivity.CURRENT_ITEM, 0);
-        intent.putExtra(ImageViewerActivity.SHOW_SAVE, "false");
-        intent.putExtra(ImageViewerActivity.SHOW_SHARE, "false");
+        intent.putExtra(ImageViewerActivity.SHOW_SAVE, "true");
+        intent.putExtra(ImageViewerActivity.SHOW_SHARE, "true");
         startActivity(intent);
     }
 
