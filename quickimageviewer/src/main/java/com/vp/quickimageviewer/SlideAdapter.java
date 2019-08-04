@@ -22,6 +22,9 @@ import com.github.chrisbanes.photoview.PhotoView;
 
 import java.util.List;
 
+/**
+ * Created by Vinod Patil on 4/8/19
+ */
 public class SlideAdapter extends PagerAdapter {
 
     private Context context;
@@ -56,11 +59,6 @@ public class SlideAdapter extends PagerAdapter {
         final ProgressBar progressBar = view.findViewById(R.id.imageProgressBar);
         PhotoView image = view.findViewById(R.id.iv_preview);
         final TextView tvImageDescription = view.findViewById(R.id.tvImageDescription);
-
-//        Glide.with(context)
-//                .load(list.get(position).getImageURL())
-//                .thumbnail(Glide.with(context).load(R.raw.image_loader).thumbnail(0.2f))
-//                .into(image);
 
         Glide.with(context)
                 .load(list.get(position).getImageURL())

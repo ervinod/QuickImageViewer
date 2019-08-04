@@ -18,16 +18,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         button = findViewById(R.id.button);
         button.setOnClickListener(this);
-
-
-
     }
 
     public void showImages(){
 
         final ArrayList<ImageModel> imageList = new ArrayList<>();
-        imageList.add(new ImageModel("http://static2.hypable.com/wp-content/uploads/2013/12/hannibal-season-2-release-date.jpg", "Hannibal"));
         imageList.add(new ImageModel("http://tvfiles.alphacoders.com/100/hdclearart-10.png", "Big Bang Theory"));
+        imageList.add(new ImageModel("http://static2.hypable.com/wp-content/uploads/2013/12/hannibal-season-2-release-date.jpg", "Hannibal"));
         imageList.add(new ImageModel("http://cdn3.nflximg.net/images/3093/2043093.jpg", "House of Cards"));
         imageList.add(new ImageModel("http://images.boomsbeat.com/data/images/full/19640/game-of-thrones-season-4-jpg.jpg", "Game of Thrones"));
 

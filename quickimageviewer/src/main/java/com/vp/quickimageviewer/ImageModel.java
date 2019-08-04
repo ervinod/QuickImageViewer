@@ -3,7 +3,7 @@ package com.vp.quickimageviewer;
 import java.io.Serializable;
 
 /**
- * Created by Himangi on 4/7/18
+ * Created by Vinod Patil on 4/8/19
  */
 public class ImageModel implements Serializable {
     private String imageURL;

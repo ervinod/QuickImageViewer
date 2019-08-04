@@ -8,7 +8,7 @@ import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 
 /**
- * Created by Himangi on 20/4/18
+ * Created by Vinod Patil on 4/8/19
  */
 public class CheckPermission {
 
