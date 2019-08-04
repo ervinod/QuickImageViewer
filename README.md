@@ -25,4 +25,16 @@ Functionalitis:
 
 2. Hide Share option:
    intent.putExtra(ImageViewerActivity.SHOW_SHARE, "false");
+
+
+# Intrgration:
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
   
+  dependencies {
+	        implementation 'com.github.ervinod:QuickImageViewer:1.0.0'
+	}
